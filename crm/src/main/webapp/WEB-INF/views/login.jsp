@@ -38,13 +38,13 @@
     <div class="login-box-body">
         <p class="login-box-msg">账号或密码错误</p>
 
-        <form action="../../index2.html" method="post">
+        <form action="employee" method="Post">
             <div class="form-group has-feedback">
-                <input type="email" class="form-control" placeholder="Email">
+                <input type="email" class="form-control" placeholder="Email" value="123@qq.com">
                 <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
             </div>
             <div class="form-group has-feedback">
-                <input type="password" class="form-control" placeholder="Password">
+                <input type="password" class="form-control" placeholder="Password" value="123">
                 <span class="glyphicon glyphicon-lock form-control-feedback"></span>
             </div>
             <div class="row">
@@ -58,7 +58,7 @@
                 <!-- /.col -->
                 <div class="col-offset-8 col-xs-4">
 
-                    <a href="" class="btn btn-primary btn-block btn-flat" >登录</a>
+                    <button type="submit" class="btn btn-primary btn-block btn-flat" >登录</button>
                 </div>
                 <!-- /.col -->
             </div>
